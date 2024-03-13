@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 20px;">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 03 - Case 02</title>
+
+    <link rel="stylesheet" href="assets/normalize.css">
+
+    <style>
+        header {
+            background-color: lightblue;
+            position: relative;
+            width: 100vw;
+            height: 60px;
+            padding: 10px;
+            box-sizing: border-box;
+
+        }
+
+        header>img {
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        header>nav {
+            height: fit-content;
+            position: absolute;
+            right: 10px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        header>nav>ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        header>nav>ul>li {
+            display: inline-block;
+        }
+        footer{
+            background: darkgray;
+            text-align: center;
+            color: white;
+            padding: 20px 40px;
+        }
+        aside{
+            background-color: purple;
+            color: white;
+            padding: 10px;
+            width: 150px;
+
+            box-sizing: border-box;
+
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+        }
+        main>aside>ul{
+            margin: 0;
+            list-style: none;
+        }
+
+        main>section{
+            background: yellow;
+            width: calc(100vw - 150px);
+            /*!*position: absolute;*!
+            right: 0;*/
+            margin-left: 150px;
+
+        }
+        main{
+            position: relative;
+        }
+        main>section>p{
+            margin: 0px;
+        }
+        section>div>div{
+            width: calc(100%/3);
+            height: 250px;
+            position: absolute;
+
+            background: url("assets/78nE.gif");
+            background-position: center;
+
+            border: 1px solid brown;
+            box-sizing: border-box;
+        }
+
+        section>div>div:nth-child(1){
+            left: 0;
+
+        }
+        section>div>div:nth-child(2){
+            left: 0;
+            right: 0;
+            margin: auto;
+
+        }
+        section>div>div:nth-child(3){
+
+            right: 0;
+        }
+        section>div{
+            position: relative;
+            height: 250px;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+<header>
+    <img src="assets/ijse@2x.png" title="ijse.lk" alt="ijse logo" width="150">
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Contact</li>
+            <li>About Us</li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <aside>
+        <ul>
+            <li>Home</li>
+            <li>services</li>
+            <li>contacts</li>
+            <li>About us</li>
+        </ul>
+
+    </aside>
+    <section>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda autem beatae blanditiis delectus ducimus enim exercitationem hic illum laudantium magnam minima porro praesentium quas qui sit, totam ullam veritatis?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda autem beatae blanditiis delectus ducimus enim exercitationem hic illum laudantium magnam minima porro praesentium quas qui sit, totam ullam veritatis?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda autem beatae blanditiis delectus ducimus enim exercitationem hic illum laudantium magnam minima porro praesentium quas qui sit, totam ullam veritatis?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda autem beatae blanditiis delectus ducimus enim exercitationem hic illum laudantium magnam minima porro praesentium quas qui sit, totam ullam veritatis?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda autem beatae blanditiis delectus ducimus enim exercitationem hic illum laudantium magnam minima porro praesentium quas qui sit, totam ullam veritatis?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda autem beatae blanditiis delectus ducimus enim exercitationem hic illum laudantium magnam minima porro praesentium quas qui sit, totam ullam veritatis?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda autem beatae blanditiis delectus ducimus enim exercitationem hic illum laudantium magnam minima porro praesentium quas qui sit, totam ullam veritatis?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda autem beatae blanditiis delectus ducimus enim exercitationem hic illum laudantium magnam minima porro praesentium quas qui sit, totam ullam veritatis?</p>
+    </section>
+</main>
+
+<footer>
+    Developed by IJSE
+</footer>
+
+
+</body>
+</html>
