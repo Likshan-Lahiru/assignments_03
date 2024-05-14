@@ -10,27 +10,27 @@ section {
 }
 
 div {
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 section>div:first-child {
-    background-color: mediumpurple;
+    background-color: #ff0000;
 }
 
 section>div:nth-child(2) {
-    background-color: orange;
+    background-color: #d000ff;
 }
 section>div:nth-child(3) {
-    background-color: #704600;
+    background-color: #ff6a02;
 }
 section>div:nth-child(4) {
-    background-color: grey;
+    background-color: #ca58bc;
 }
 section>div:nth-child(5) {
     background-color: palegreen;
 }
 section>div:nth-child(6) {
-    background-color: red;
+    background-color: #814500;
 }
 section>div:nth-child(7) {
     background-color: hotpink;
@@ -39,14 +39,14 @@ section>div:nth-child(8) {
     background-color: green;
 }
 section>div:nth-child(9) {
-    background-color: yellowgreen;
+    background-color: #7b00ff;
 }
 section>div:nth-child(10) {
-    background-color: blue;
+    background-color: #ffcc00;
 }
 section>div:nth-child(11) {
-    background-color: #704600;
+    background-color: #00817d;
 }
 section>div:last-child {
-    background-color: seagreen;
+    background-color: #00fff9;
 }
